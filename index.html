@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>homelab-mcp</title>
+  <meta name="description" content="A personal, read-only MCP server for Gmail and Google Calendar.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>homelab-mcp</h1>
+  <p class="lede">A personal, read-only MCP server for Gmail and Google Calendar.</p>
+
+  <p>homelab-mcp lets the owner's AI assistant read their own email and calendar through the
+  <a href="https://modelcontextprotocol.io">Model Context Protocol</a>. It runs on a private home server
+  and is used by a single person: its author.</p>
+
+  <h2>What it can do</h2>
+  <ul>
+    <li>List and search messages in the owner's Gmail inbox, and read a message.</li>
+    <li>List upcoming events in the owner's Google Calendar, and read an event.</li>
+  </ul>
+  <p>Access is read-only. It cannot send, delete, or change email or calendar events.</p>
+
+  <h2>Google permissions requested</h2>
+  <ul>
+    <li><code>gmail.readonly</code>: read email messages and settings.</li>
+    <li><code>calendar.readonly</code>: see and download calendars.</li>
+  </ul>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+  <footer>Maintained by <a href="https://github.com/isaacasensio">Isaac Asensio</a>.</footer>
+</main>
+</body>
+</html>
